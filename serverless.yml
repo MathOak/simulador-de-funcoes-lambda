@@ -1,0 +1,19 @@
+service: aula14-serverless-demo
+
+frameworkVersion: '3.40.0'
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+  region: sa-east-1
+
+functions:
+  getMetrics:
+    handler: handler.hello
+    events:
+      - http:
+          path: metrics
+          method: get
+
+plugins:
+  - serverless-offline
