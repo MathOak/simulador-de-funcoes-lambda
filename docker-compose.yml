@@ -1,0 +1,7 @@
+services:
+  serverless-offline:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      AWS_REGION: sa-east-1
