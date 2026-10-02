@@ -1,4 +1,4 @@
-# Serverless Aula 14
+# Serverless Simulator
 
 Projeto de demonstração de uma função HTTP serverless escrita em Node.js. A aplicação usa o Serverless Framework e o plugin `serverless-offline` para simular localmente uma API Gateway da AWS. Também pode ser iniciada em um contêiner Docker.
 
